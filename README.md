@@ -1,11 +1,20 @@
 # Lobi Ligi — Sezon 2
 
-Bu klasör GitHub deposuna yüklenebilecek hazır yayın dosyalarıdır. Kod GitHub'da, şifreli ana site GitHub'a bağlı Cloudflare Pages'de çalışır. GitHub Pages kopyası salt okunur arşiv olarak kullanılabilir; orada şifreli giriş kapalıdır.
+Bu klasör GitHub Pages için hazır yayın dosyalarıdır. Site ücretsiz GitHub Pages üzerinde çalışabilir; Cloudflare Pages zorunlu değildir.
 
-`index.html`, `.nojekyll`, `league-config.json` ve bu README dosyasını `Yazganugur/Lobi-ligi` deposunun köküne yükle. ZIP dosyasını site dosyası olarak yükleme. Cloudflare Pages → Import existing Git repository → main → Framework None → Build command `exit 0` → çıktı klasörü `/`. Anahtar bağlantısı yokken istatistikler ve yerel lobi kurucu çalışır; hesaplar ve ortak lobi kurulum bekler.
+GitHub deposunun kökünde şu dosyalar bulunmalı: `index.html`, `.nojekyll`, `league-config.json` ve bu README.
 
-Hesap ve Steam bağlantısının ayrıntılı kurulumu ayrıca verilen `backend/KURULUM.md` içinde. Veritabanı ve Edge Function dosyalarını bu herkese açık yayın klasörüne koymak gerekmez. Şifreler, service_role, Steam API anahtarı ve kaynak ekran görüntüleri bu klasörde yer almaz. `league-config.json` yalnız kamuya açık Supabase URL/publishable anahtarı içindir.
+GitHub Pages kurulumu:
+1. GitHub repository → **Settings → Pages**.
+2. **Build and deployment → Source: Deploy from a branch**.
+3. Branch olarak `main`, klasör olarak `/ (root)` seç.
+4. **Save** de.
+5. Site adresi genellikle `https://yazganugur.github.io/Lobi-ligi/` olur.
 
-Normal adres Sezon 2 açar; `?season=s1` eski sezonu açar. 20 eski maç / 200 kayıt korundu. Yeni maçlar `mac/sezon-2` klasörüne konur ve bu sohbette haber verilir. Bilgisayardaki değişiklik kendiliğinden GitHub'a gitmez. Depo bağlantısı kurulunca main commitleri Cloudflare'da otomatik yayına dönüşür.
+Site, GitHub Pages’te de kullanıcı girişi ve kayıt için Supabase’e bağlanır. Supabase Edge Function secret `LOBI_ALLOWED_ORIGINS` içine ana adresi de ekle:
 
-Supabase veritabanı ve kayıt servisi bağlandı. Şifre alt sınırı 6 karakter; kayıt iki eşleşen şifre ister. Yerel önizlemede gerçek kullanıcı oturumu ve Hesabım profili doğrulandı. Ana site adresi henüz izinli origin listesine eklenmedi. Yönetici/kart onayı, Steam API secret ve iki cihazlı çekiliş kontrolü bekliyor. GitHub veya Cloudflare yayını bu paket hazırlama işlemiyle yapılmaz.
+`http://127.0.0.1:4174,https://lobi-ligi.pages.dev,https://yazganugur.github.io`
+
+GitHub Pages proje adresinde `/Lobi-ligi/` yolu bulunur; Supabase origin listesine yalnızca origin’i, yani `https://yazganugur.github.io` adresini eklemek yeterlidir.
+
+Cloudflare Pages mevcut alternatif yayın olarak kalabilir; iki servis aynı GitHub dosyalarını yayınlayabilir. Şifreler, service role anahtarı, Steam secret ve demo dosyaları bu klasörde bulunmaz.
