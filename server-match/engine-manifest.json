@@ -3,7 +3,7 @@
   "files": [
     {
       "file": "club-board-model.js",
-      "sha256": "80e0ed289cdc481370a4a4c51b66ca07bc21c8cb4eb381426b764d8cdda26d42"
+      "sha256": "dc4558e304329d1e0beb84feed6b5416d75d488fdd851d284cc8891e9e8965c2"
     },
     {
       "file": "club-duel-model.js",
@@ -11,7 +11,7 @@
     },
     {
       "file": "club-manager-model.js",
-      "sha256": "5544fd768f9a968d9af8915ef92c369c5a295110e0d6e0b2fae8ca90d55fa509"
+      "sha256": "9b31ed12c85c4ac1b3e8f2651a2f2b42c7552819f76ed6c01037ee4e5c4b6d2c"
     },
     {
       "file": "club-server-replay.js",
@@ -23,7 +23,7 @@
     },
     {
       "file": "game-v2/model.js",
-      "sha256": "bd99156180f74dbfde87635c1101ab23fa9ec3e978d93777c26a844ca2e40819"
+      "sha256": "b9d8e51da1056b4660e75891f28cb9c2213645959e2f101d107861a82ddaa846"
     },
     {
       "file": "game-v2/behavior-tiers.js",
@@ -39,11 +39,11 @@
     },
     {
       "file": "game-v2/collision.js",
-      "sha256": "b8754a15ab8590daf7b34047572231c1cfd8494af59938f73b96640f0ef645b7"
+      "sha256": "6589adcf75feba2d815ac91a07cfd22a820b85cb3eb96893f6520a9f1955d194"
     },
     {
       "file": "game-v2/config.js",
-      "sha256": "790171f0c65b910cfb22d4f3afdcfc4188d0e80618ce066feba1958265391f30"
+      "sha256": "a97ae04f70281a9857f38a46495968eea5cebf319410df154ceecd9b86e1e0b7"
     },
     {
       "file": "game-v2/decision-policy.js",
@@ -67,7 +67,7 @@
     },
     {
       "file": "game-v2/map.js",
-      "sha256": "428f9096d888b6edbcb69099cd3be40cc56a2e1c8d4177d1ef6506f204b316ac"
+      "sha256": "3b3a4dec86b889f2e2c46f1697c5c9933fe22fbcc8ad445e39084673221b2233"
     },
     {
       "file": "game-v2/morale-design.js",
@@ -75,11 +75,11 @@
     },
     {
       "file": "game-v2/morale.js",
-      "sha256": "c8c17a586d270786a1e5fbb34c321e9380f6b7a009c7d34ce4bc82fb13636c4c"
+      "sha256": "516b544e78dc6e4a4331db388e7f51e61e1cc5e50d62fff95e0bc0bbb13ddd74"
     },
     {
       "file": "game-v2/navigation.js",
-      "sha256": "54209b0a893c7af92484b248591ed29bef0dadb41c2aaf108326ec2ebfc94033"
+      "sha256": "9e6755624b5578139102b9e0318085f13a064073ef3fd2536d0824b7ec689ceb"
     },
     {
       "file": "game-v2/navigation.json",
@@ -91,7 +91,7 @@
     },
     {
       "file": "game-v2/opponent-model.js",
-      "sha256": "06d9b7735e14b335b111df81e87578b2202ed6923a5880a83fa411d344d0f9da"
+      "sha256": "2b913c3397bf4cb9be36d23c92a7e959cf1f77618aa220811337d75193bded82"
     },
     {
       "file": "game-v2/probability.js",
@@ -111,7 +111,7 @@
     },
     {
       "file": "game-v2/tactical-policy.js",
-      "sha256": "8b29e08b40ef5d0804279efd5a321d96e076b100a39f869246f88f54aea8aedf"
+      "sha256": "d2298a46edc996f8287209f04437e0d4961a578181db544be08f8a18dbc69994"
     },
     {
       "file": "game-v2/traits.json",

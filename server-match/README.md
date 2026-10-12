@@ -43,6 +43,8 @@ Eski motorla kaydedilmiş, henüz kilitlenmemiş maçta **Güncel kadroyu kaydet
 
 `node test/smoke.mjs`: gerçek işçi thread'i, tam maç, iki yöneticinin ayrı planı, sıkıştırılmış kayıt, motor özeti, tekrar deneme, yetkisiz çağrı reddi.
 
+`node test/package-integrity.mjs`: Windows'tan Git üzerinden Linux'a taşınan paketin aynı dosya özetlerini koruması ve değiştirilmiş motorun reddedilmesi. Paketleme tüm metin dosyalarını LF olarak yazar; `.gitattributes` aynı biçimi Git checkout'unda da korur.
+
 `backend/test-club-scheduled.sql`: doğru Supabase projesinde rollback testi; izin, kayıt tekrarı, kilit, işçi kiralaması, aylık kota ve başkasının kaydını okuyamama. Kullanıcı verisini kalıcı değiştirmez.
 
 Resmî kaynaklar (12 Ekim 2026 kontrolü): [Cron sınırları](https://vercel.com/docs/cron-jobs/usage-and-pricing), [işlev sınırları](https://vercel.com/docs/functions/limitations), [kullanım](https://vercel.com/docs/functions/usage-and-pricing), [Hobby koşulları](https://vercel.com/pricing).

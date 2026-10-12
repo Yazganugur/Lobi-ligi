@@ -11,7 +11,7 @@ export function verifyPackage(){
  if(verified)return;
  const manifest=JSON.parse(readFileSync(new URL('./engine-manifest.json',import.meta.url),'utf8'));
  if(manifest.schema!==1||!Array.isArray(manifest.files)||manifest.files.length<20)throw Error('INVALID_ENGINE_PACKAGE');
- for(const f of manifest.files){if(!/^[a-zA-Z0-9_./-]+$/.test(f.file)||f.file.includes('..')||f.file.startsWith('/')||!(/^[a-f0-9]{64}$/.test(f.sha256)))throw Error('INVALID_ENGINE_PACKAGE');const data=readFileSync(new URL('./engine/'+f.file,import.meta.url));if(createHash('sha256').update(data).digest('hex')!==f.sha256)throw Error('ENGINE_PACKAGE_CHANGED');}
+ for(const f of manifest.files){if(!/^[a-zA-Z0-9_./-]+$/.test(f.file)||f.file.includes('..')||f.file.startsWith('/')||!(/^[a-f0-9]{64}$/.test(f.sha256)))throw Error('INVALID_ENGINE_PACKAGE');const data=readFileSync(new URL('./engine/'+f.file,import.meta.url));if(createHash('sha256').update(data).digest('hex')!==f.sha256)throw Error('ENGINE_PACKAGE_CHANGED:'+f.file);}
  verified=true;
 }
 export function validateResult(result,job){
