@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "file": ".gitignore",
+      "sha256": "c26b3aff33dfa0e7f924506959e05a730d9e89c2327211d0ed55384083572e20"
+    },
+    {
+      "file": ".env.example",
+      "sha256": "f41359f3ccd7fda5a47ae822248a6d7608a820939abcb0a305649ba3eb09c87c"
+    },
+    {
+      "file": "README.md",
+      "sha256": "afeaa7061e33aa5368e43338319e6326a96866250a87f56e19eff2350952cf4a"
+    },
+    {
+      "file": "package.json",
+      "sha256": "b1a8bd1176b31f396f554e1c28afdf35c2e125803acc5f360411107b26c69c2e"
+    },
+    {
+      "file": "vercel.json",
+      "sha256": "44d236248c48830f6fe8974293a6f57cb9c0b3a34e1eacf96373505ae7786843"
+    },
+    {
+      "file": "worker.mjs",
+      "sha256": "1f37af8bbcda8bffe3d25d81afc83b02b504f9f85c2a4e6a29d5591934de1940"
+    },
+    {
+      "file": "simulation.mjs",
+      "sha256": "6c59b08731f86e9e2a86a82bf54095e424c84b180a6675cc663c7f8497463795"
+    },
+    {
+      "file": "api/matches.mjs",
+      "sha256": "d12cc38c83bfea11ad0cb92e3ec2eca71d3a0f5e0e5c31fbaf2c4dbf84cb954c"
+    },
+    {
+      "file": "test/smoke.mjs",
+      "sha256": "5ec81b977f295bdd16a4017dc3ec0f54ed64ba52b52018f44f6f22c507d55e57"
+    },
+    {
+      "file": "engine-manifest.json",
+      "sha256": "7c44a15405fd0f0162273f2c6fab4e4961a6eb1d44869a3f47273d630ab8af33"
+    },
+    {
+      "file": "engine/club-board-model.js",
+      "sha256": "80e0ed289cdc481370a4a4c51b66ca07bc21c8cb4eb381426b764d8cdda26d42"
+    },
+    {
+      "file": "engine/club-duel-model.js",
+      "sha256": "9195152a7c79fd310f10ddb85a0e3d74c6a0e3190fa4b71de2c7777ec8e67941"
+    },
+    {
+      "file": "engine/club-manager-model.js",
+      "sha256": "5544fd768f9a968d9af8915ef92c369c5a295110e0d6e0b2fae8ca90d55fa509"
+    },
+    {
+      "file": "engine/club-server-replay.js",
+      "sha256": "1b995fc70334403e4a8db2304928ad1db1a6483d12f4f872c6ce2212540464ad"
+    },
+    {
+      "file": "engine/game-lab-model.js",
+      "sha256": "c2a352f9f56f8d303400f1cd5a0a55f4317633a4810d94ec656bfadaa04564fb"
+    },
+    {
+      "file": "engine/game-v2/model.js",
+      "sha256": "bd99156180f74dbfde87635c1101ab23fa9ec3e978d93777c26a844ca2e40819"
+    },
+    {
+      "file": "engine/game-v2/behavior-tiers.js",
+      "sha256": "8aae7514ea587367d79796c358b4a2df42efec630a266d3129e73f3d83c0a99d"
+    },
+    {
+      "file": "engine/game-v2/body-blocking.js",
+      "sha256": "212a83e2c277c864115129cebfeef703fe89166be48722ed1d7242ccc2d5e4c0"
+    },
+    {
+      "file": "engine/game-v2/catalog.json",
+      "sha256": "56a257b8461a50711874b2c7738f7d168d6bf8b2fff98509ee3314b6fa0d634f"
+    },
+    {
+      "file": "engine/game-v2/collision.js",
+      "sha256": "b8754a15ab8590daf7b34047572231c1cfd8494af59938f73b96640f0ef645b7"
+    },
+    {
+      "file": "engine/game-v2/config.js",
+      "sha256": "790171f0c65b910cfb22d4f3afdcfc4188d0e80618ce066feba1958265391f30"
+    },
+    {
+      "file": "engine/game-v2/decision-policy.js",
+      "sha256": "1c4ff16d705256b56aa6924984afd17b7c60786798326df0a1fa899ba97dd49b"
+    },
+    {
+      "file": "engine/game-v2/decision-state.js",
+      "sha256": "b1c0d77a3b148385702480b4d60643ed48d2214534208e62698f5f7353cbffd2"
+    },
+    {
+      "file": "engine/game-v2/economy.js",
+      "sha256": "17126543b3aac1e3fc32edc379be35d230fc944c8397b9112b9f71214344eb00"
+    },
+    {
+      "file": "engine/game-v2/engine-build.js",
+      "sha256": "b28aa3c98215c77a8a94720f9c3ece96b00f556d33b63f8dea8efb15221b9f72"
+    },
+    {
+      "file": "engine/game-v2/geometry.json",
+      "sha256": "32ae969955f476799e6c0eac4950774e1f4657176433f885ca601ccaab6422e8"
+    },
+    {
+      "file": "engine/game-v2/map.js",
+      "sha256": "428f9096d888b6edbcb69099cd3be40cc56a2e1c8d4177d1ef6506f204b316ac"
+    },
+    {
+      "file": "engine/game-v2/morale-design.js",
+      "sha256": "2f27795f046c037d7f346eb6d2a5a6244da9051f4cd1b88d220c775e733655a4"
+    },
+    {
+      "file": "engine/game-v2/morale.js",
+      "sha256": "c8c17a586d270786a1e5fbb34c321e9380f6b7a009c7d34ce4bc82fb13636c4c"
+    },
+    {
+      "file": "engine/game-v2/navigation.js",
+      "sha256": "54209b0a893c7af92484b248591ed29bef0dadb41c2aaf108326ec2ebfc94033"
+    },
+    {
+      "file": "engine/game-v2/navigation.json",
+      "sha256": "4f4ff1168fa6bb3db870a75f65ca8243692d7f804c1acc7f7e03d54cb15f1e59"
+    },
+    {
+      "file": "engine/game-v2/objectives.js",
+      "sha256": "7ad849aec0e8dba2c05ba32419f0b6ebe43e350f5073243a6fa75370269401e9"
+    },
+    {
+      "file": "engine/game-v2/opponent-model.js",
+      "sha256": "06d9b7735e14b335b111df81e87578b2202ed6923a5880a83fa411d344d0f9da"
+    },
+    {
+      "file": "engine/game-v2/probability.js",
+      "sha256": "82ee21b37c9e6d091f5d8fe2db57fe63de5c0f23755d53a497ff51be52cd766f"
+    },
+    {
+      "file": "engine/game-v2/radio.js",
+      "sha256": "26d0d6a346ccc8b5635896db58f95687124a89be41c20f004341e533f34102f5"
+    },
+    {
+      "file": "engine/game-v2/reaction.js",
+      "sha256": "79b892c2973d574ba3a8601d0467ba8740849b7ec418515543eb55275613383b"
+    },
+    {
+      "file": "engine/game-v2/scenario.js",
+      "sha256": "3c96d8afae990590a609a4cb6ba5cbd2a2d5755257f4489f2fde29b535d0b27f"
+    },
+    {
+      "file": "engine/game-v2/tactical-policy.js",
+      "sha256": "8b29e08b40ef5d0804279efd5a321d96e076b100a39f869246f88f54aea8aedf"
+    },
+    {
+      "file": "engine/game-v2/traits.json",
+      "sha256": "1d6dcf4e890a76fd1233c920b12856449a9845f8f3a20fd97b3c1929894b0401"
+    },
+    {
+      "file": "engine/tactical-orders.js",
+      "sha256": "5c4383fa3e11e653a9b34938f5cdfce3fc2e1dca361b661b3ecbf48000790cd8"
+    }
+  ]
+}

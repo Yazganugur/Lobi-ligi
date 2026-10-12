@@ -1,0 +1,1 @@
+{"name":"lobi-match-worker","private":true,"type":"module","engines":{"node":"22.x"},"scripts":{"smoke":"node test/smoke.mjs"}}

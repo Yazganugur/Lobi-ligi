@@ -1,0 +1,1 @@
+{"framework":null,"buildCommand":"","fluid":true,"functions":{"api/matches.mjs":{"maxDuration":300,"includeFiles":"{engine/**,simulation.mjs,worker.mjs,engine-manifest.json}"}},"crons":[{"path":"/api/matches","schedule":"0 18 * * *"}]}

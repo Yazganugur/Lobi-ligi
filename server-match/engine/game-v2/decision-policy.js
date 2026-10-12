@@ -1,0 +1,1 @@
+export const EXPERIMENT_POLICIES={grouped:{label:'Birlikte retake',ctRetake:'grouped',minimumReady:3,maxWaitSeconds:4,safetySeconds:2},fast:{label:'Hızlı temas',ctRetake:'fast-contact',minimumReady:1,maxWaitSeconds:0,safetySeconds:2},cautious:{label:'Temkinli retake / save',ctRetake:'grouped',minimumReady:4,maxWaitSeconds:4,safetySeconds:12}};
